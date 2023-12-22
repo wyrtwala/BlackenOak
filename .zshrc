@@ -32,5 +32,5 @@ function zle-line-finish {
 zle -N zle-line-finish
 
 #ZSH-PROMPT
-PROMPT='%F{082}%n%f@%F{058}%M%f%F{094}:%l%f %F{022}->%f %F{154}%/%f %F{088}[%?]%f 
+PROMPT='%F{082}%n%f@%F{058}%M%f%F{094}:%l%f %F{088}[%?]%f %F{022}>>%f %F{154}%/%f
 %B%F{022}${vim_mode}%f%b'
